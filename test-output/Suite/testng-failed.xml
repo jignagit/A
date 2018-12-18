@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="ip" value="192.168.43.155"/>
+  <parameter name="browser" value="firefox"/>
+  <test name="Test2(failed)">
+    <parameter name="ip" value="192.168.43.155"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="qsp1.DemoP">
+        <methods>
+          <include name="testGrid" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- qsp1.DemoP -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

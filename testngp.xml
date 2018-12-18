@@ -1,0 +1,17 @@
+
+<suite name="Suite" parallel="none">
+  <test name="Test1">
+  <parameter name="ip" value="192.168.43.155"/>
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="qsp1.DemoP"/>
+    </classes>
+  </test> 
+   <test name="Test2">
+  <parameter name="ip" value="192.168.43.155"/>
+  <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="qsp1.DemoP"/>
+    </classes>
+  </test> 
+</suite> 

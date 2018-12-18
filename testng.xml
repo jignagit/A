@@ -1,0 +1,11 @@
+
+
+<suite name="Suite" parallel="tests">
+  <test name="Test">
+  <parameter name="ip" value="192.168.43.162"/>
+  <parameter name="browser" value="chrome"/>
+  <classes>
+  <class name="qsp1.Ipcon"/>
+  </classes>
+  </test> 
+</suite> 

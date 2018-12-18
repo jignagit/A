@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[createUser]]>
+    </line>
+    <line>
+      <![CDATA[deleteUser]]>
+    </line>
+    <line>
+      <![CDATA[editProduct]]>
+    </line>
+    <line>
+      <![CDATA[deleteProduct]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="172" started-at="2018-10-07T08:43:44Z" finished-at="2018-10-07T08:43:44Z">
+    <groups>
+      <group name="product">
+        <method signature="Grops.createProduct()[pri:4, instance:mahram.Grops@4520ebad]" name="createProduct" class="mahram.Grops"/>
+        <method signature="Grops.deleteProduct()[pri:5, instance:mahram.Grops@4520ebad]" name="deleteProduct" class="mahram.Grops"/>
+      </group> <!-- product -->
+      <group name="smoke">
+        <method signature="Grops.createProduct()[pri:4, instance:mahram.Grops@4520ebad]" name="createProduct" class="mahram.Grops"/>
+        <method signature="Grops.createUser()[pri:1, instance:mahram.Grops@4520ebad]" name="createUser" class="mahram.Grops"/>
+      </group> <!-- smoke -->
+      <group name="user">
+        <method signature="Grops.createUser()[pri:1, instance:mahram.Grops@4520ebad]" name="createUser" class="mahram.Grops"/>
+        <method signature="Grops.deleteUser()[pri:3, instance:mahram.Grops@4520ebad]" name="deleteUser" class="mahram.Grops"/>
+      </group> <!-- user -->
+    </groups>
+    <test name="Default test" duration-ms="172" started-at="2018-10-07T08:43:44Z" finished-at="2018-10-07T08:43:44Z">
+      <class name="mahram.Grops">
+        <test-method status="PASS" signature="login()[pri:0, instance:mahram.Grops@4520ebad]" name="login" is-config="true" duration-ms="32" started-at="2018-10-07T14:13:44Z" finished-at="2018-10-07T14:13:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createUser()[pri:1, instance:mahram.Grops@4520ebad]" name="createUser" duration-ms="32" started-at="2018-10-07T14:13:44Z" finished-at="2018-10-07T14:13:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[createUser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="deleteUser()[pri:3, instance:mahram.Grops@4520ebad]" name="deleteUser" duration-ms="16" started-at="2018-10-07T14:13:44Z" finished-at="2018-10-07T14:13:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[deleteUser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method status="PASS" signature="createProduct()[pri:4, instance:mahram.Grops@4520ebad]" name="createProduct" duration-ms="16" started-at="2018-10-07T14:13:44Z" finished-at="2018-10-07T14:13:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[editProduct]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createProduct -->
+        <test-method status="PASS" signature="deleteProduct()[pri:5, instance:mahram.Grops@4520ebad]" name="deleteProduct" duration-ms="16" started-at="2018-10-07T14:13:44Z" finished-at="2018-10-07T14:13:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[deleteProduct]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteProduct -->
+      </class> <!-- mahram.Grops -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
